@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <section class="container">
+      <section class="player">
+        <video id="video" src="./video/sintel-short.mp4"></video>
+        <section class="nav-bar">
+          <section class="play-controls">
+            <button class="play fa fa-play"></button>
+            <button class="pause d-none fa fa-pause"></button>
+            <button class="reset d-none fa fa-history"></button>
+          </section>
+          <section class="timeline">
+            <span class="start">00:00</span>
+            <span class="progressbar">
+              <span></span>
+            </span>
+            <span class="total">00:00</span>
+          </section>
+          <section class="view-controls">
+            <button class="volume fa fa-volume-up"></button>
+            <button class="zoom-in fa fa-expand"></button>
+            <button class="zoom-out d-none fa fa-compress"></button>
+          </section>
+        </section>
+      </section>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
